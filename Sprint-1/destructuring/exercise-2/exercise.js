@@ -70,3 +70,13 @@ let hogwarts = [
     occupation: "Teacher",
   },
 ];
+
+
+// Get all students
+const students = hogwarts.filter(person => person.occupation === "Student");
+console.log(students);
+
+// Get all teachers
+const teachers = hogwarts.filter(person => person.occupation === "Teacher");
+console.log(teachers);
+
